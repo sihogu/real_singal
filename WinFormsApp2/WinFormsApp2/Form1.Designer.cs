@@ -65,6 +65,7 @@
             // 
             // TimeBox1
             // 
+            TimeBox1.AllowDrop = true;
             TimeBox1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
             TimeBox1.Location = new Point(23, 148);
             TimeBox1.Margin = new Padding(2);

@@ -19,34 +19,20 @@ namespace WinFormsApp2
         bool flag1_2 = false;
         string tt = "";
 
-        
-        private void InputTime1_Enter(object sender, EventArgs e)
-        {
-            if (InputTime1.Text == "60")
-            {
-                InputTime1.Text = "";
-                InputTime1.ForeColor = Color.Black;
-            }
-        }
-
-        private void InputTime1_Leave(object sender, EventArgs e)
-        {
-            if (InputTime1.Text == "")
-            {
-                InputTime1.Text = "60";
-                InputTime1.ForeColor = Color.LightGray;
-            }
-        }
        
+
+        
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             InputTime1.Text = "60";
-            InputTime1.ForeColor = Color.LightGray;
+
         }
+        
 
         private void TimeBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
