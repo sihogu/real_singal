@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Diagnostics.Eventing.Reader;
 
 namespace WinFormsApp2
@@ -19,20 +19,19 @@ namespace WinFormsApp2
         bool flag1_2 = false;
         string tt = "";
 
-       
 
-        
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-            InputTime1.Text = "60";
+
 
         }
-        
+
 
         private void TimeBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,15 +43,17 @@ namespace WinFormsApp2
                 if (InputTime1.Text == "")
                 {
                     now = DateTime.Now.AddMinutes(60);
+
                 }
                 else
                 {
                     now = DateTime.Now.AddMinutes(Int32.Parse(InputTime1.Text));
+
                 }
 
 
                 timer1.Start();
-                button1.Text = "=";
+                button1.Text = "âšâš";
 
 
 
@@ -67,17 +68,14 @@ namespace WinFormsApp2
 
                 timer1.Stop();
 
-                button1.Text = "¢º";
+                button1.Text = "â–¶";
 
                 flag1 = 3;
 
             }
             else if (flag1 == 3)
             {
-
-
-
-                //ÇöÀç °ª¿¡¼­ ½ÃÀÛ
+                //í˜„ì¬ ê°’ì—ì„œ ì‹œì‘
                 flag1 = 4;
                 flag1_2 = true;
 
@@ -89,17 +87,14 @@ namespace WinFormsApp2
             {
                 timer1.Stop();
 
-                button1.Text = "¢º";
+                button1.Text = "â–¶";
 
                 flag1 = 5;
 
             }
             else if (flag1 == 5)
             {
-
-
-
-                //ÇöÀç °ª¿¡¼­ ½ÃÀÛ
+                //í˜„ì¬ ê°’ì—ì„œ ì‹œì‘
                 flag1 = 4;
 
                 dt = DateTime.Now.AddMinutes(Int32.Parse(dtt.ToString("mm"))).AddHours(Int32.Parse(dtt.ToString("hh"))).AddSeconds(Int32.Parse(dtt.ToString("ss")));
@@ -114,7 +109,7 @@ namespace WinFormsApp2
 
             if (flag1_2 == false)
             {
-                //ÀÔ·ÂÇÑ°ªÀÌ Å¸ÀÌ¸Ó ½Ã°£ÀÌµÊ
+                //ì…ë ¥í•œê°’ì´ íƒ€ì´ë¨¸ ì‹œê°„ì´ë¨
 
                 ts = now - DateTime.Now;
                 //textBox_timer.Text = String.Format("{0:00}:{1:00}:{2:00}", Math.Abs(t.Hours), Math.Abs(t.Minutes), Math.Abs(t.Seconds));
@@ -125,7 +120,7 @@ namespace WinFormsApp2
             else if (flag1_2 == true)
             {
 
-                //ÀÏ½ÃÁ¤Áö Å¸ÀÌ¸Ó ½Ã°£ÀÌ ´Ù½Ã ½ÃÀÛµÊ
+                //ì¼ì‹œì •ì§€ íƒ€ì´ë¨¸ ì‹œê°„ì´ ë‹¤ì‹œ ì‹œì‘ë¨
                 dtt = dt - DateTime.Now;
 
                 tt = String.Format("{0}", dtt.ToString("hh':'mm':'ss"));
@@ -172,6 +167,28 @@ namespace WinFormsApp2
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_2_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+
+            button1.Text = "â–¶";
+            TimeBox1.Text = "00:00:00";
+            InputTime1.Text = "";
+
+            flag1 = 1;
+            flag1_2 = false;
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
