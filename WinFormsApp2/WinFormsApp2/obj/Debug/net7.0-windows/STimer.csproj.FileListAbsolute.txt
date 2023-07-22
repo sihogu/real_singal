@@ -1,7 +1,0 @@
-C:\Users\user\source\repos\sihogu\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\STimer.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\sihogu\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\WinFormsApp2.Form1.resources
-C:\Users\user\source\repos\sihogu\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\STimer.csproj.GenerateResource.cache
-C:\Users\user\source\repos\sihogu\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\STimer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\source\repos\sihogu\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\STimer.AssemblyInfoInputs.cache
-C:\Users\user\source\repos\sihogu\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\STimer.AssemblyInfo.cs
-C:\Users\user\source\repos\sihogu\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\STimer.csproj.CoreCompileInputs.cache
