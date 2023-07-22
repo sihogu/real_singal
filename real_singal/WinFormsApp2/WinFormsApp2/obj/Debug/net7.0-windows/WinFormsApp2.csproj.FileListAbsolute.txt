@@ -49,3 +49,4 @@ C:\Users\user\Source\Repos\sihogu\real_singal\WinFormsApp2\WinFormsApp2\obj\Debu
 C:\Users\user\Source\Repos\sihogu\real_singal\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\WinFormsApp2.pdb
 C:\Users\user\Source\Repos\sihogu\real_singal\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\WinFormsApp2.genruntimeconfig.cache
 C:\Users\user\Source\Repos\sihogu\real_singal\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\ref\WinFormsApp2.dll
+C:\Users\user\Source\Repos\sihogu\real_singal\WinFormsApp2\WinFormsApp2\obj\Debug\net7.0-windows\WinFormsApp2.Properties.Resources.resources
